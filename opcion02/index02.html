@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opcion 02</title>
+    <link rel="stylesheet" href="index02.css">
+</head>
+<body>
+    <main>
+        <form class="registro">
+        <h2>Sign Up</h2>
+        <br><br>
+
+        <label class="first name">First name</label>
+        <input class="campo" type="text" name="first name"><br/> 
+
+        <label for="age">Age</label>
+        <input class="campo" type="number" name="Age" min="0" max="120"><br/>
+
+        <label class="income">Income</label>
+        <input class="campo" type="text"><br/>
+
+        <label for="more-info">More Info</label>
+        <textarea class="campo" id="more-info"></textarea><br/>
+
+        <label>Gender</label>
+        <div class="campo">
+        <input class="male " type="radio" name="registro" value="M"/>Male
+        <input class="female" type="radio" name="registro" value="F"/>Female
+        <input class="trnas" type="radio" name="registro" value="T"/>Trans
+
+    </div>
+        <label form="planes">Plan</label>
+        <select>
+            <option class="campo" selected disable>Select Plan</option>
+            <option value="P1">plan 1</option>
+            <option value="P2">plan 2</option>
+            <option value="P3">plan 3</option>
+            <option value="P4">plan 4</option>     
+           </select>
+           <br>
+
+    <div class="campo"> 
+        <input type="checkbox" name="subscribe" id="subscribe" />
+        <label for="subscribe">Subscribe to Newsletter</label>  
+      </div>
+           <input class="boton" type="submit" value="Update">        
+   </form>
+</main>
+</body>
+
+</html>
